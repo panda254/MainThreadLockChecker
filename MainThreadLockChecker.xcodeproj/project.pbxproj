@@ -16,6 +16,7 @@
 		5E3856CF223FB1320067A40A /* MTLCBackgroundTimeWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3856CD223FB1320067A40A /* MTLCBackgroundTimeWatcher.m */; };
 		5E3856D5223FD34A0067A40A /* MTLCThreadMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3856D3223FD34A0067A40A /* MTLCThreadMonitor.h */; };
 		5E3856D6223FD34A0067A40A /* MTLCThreadMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3856D4223FD34A0067A40A /* MTLCThreadMonitor.m */; };
+		5E5C6CC02242611D00CD2D3D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C6CBE2242611D00CD2D3D /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		5E3856CD223FB1320067A40A /* MTLCBackgroundTimeWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLCBackgroundTimeWatcher.m; sourceTree = "<group>"; };
 		5E3856D3223FD34A0067A40A /* MTLCThreadMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLCThreadMonitor.h; sourceTree = "<group>"; };
 		5E3856D4223FD34A0067A40A /* MTLCThreadMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLCThreadMonitor.m; sourceTree = "<group>"; };
+		5E5C6CBE2242611D00CD2D3D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +85,8 @@
 		5E3856B0223F876F0067A40A /* MainThreadLockChecker */ = {
 			isa = PBXGroup;
 			children = (
-				5E3856B1223F876F0067A40A /* MainThreadLockChecker.h */,
+				5E5C6CBD2242611D00CD2D3D /* Classes */,
 				5E3856B2223F876F0067A40A /* Info.plist */,
-				5E3856C8223FAD6F0067A40A /* MTLCPeriodicTask.h */,
-				5E3856C9223FAD6F0067A40A /* MTLCPeriodicTask.m */,
-				5E3856CC223FB1320067A40A /* MTLCBackgroundTimeWatcher.h */,
-				5E3856CD223FB1320067A40A /* MTLCBackgroundTimeWatcher.m */,
-				5E3856D3223FD34A0067A40A /* MTLCThreadMonitor.h */,
-				5E3856D4223FD34A0067A40A /* MTLCThreadMonitor.m */,
 			);
 			path = MainThreadLockChecker;
 			sourceTree = "<group>";
@@ -102,6 +98,21 @@
 				5E3856BE223F876F0067A40A /* Info.plist */,
 			);
 			path = MainThreadLockCheckerTests;
+			sourceTree = "<group>";
+		};
+		5E5C6CBD2242611D00CD2D3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E3856C8223FAD6F0067A40A /* MTLCPeriodicTask.h */,
+				5E3856C9223FAD6F0067A40A /* MTLCPeriodicTask.m */,
+				5E3856CC223FB1320067A40A /* MTLCBackgroundTimeWatcher.h */,
+				5E3856CD223FB1320067A40A /* MTLCBackgroundTimeWatcher.m */,
+				5E3856D3223FD34A0067A40A /* MTLCThreadMonitor.h */,
+				5E3856D4223FD34A0067A40A /* MTLCThreadMonitor.m */,
+				5E3856B1223F876F0067A40A /* MainThreadLockChecker.h */,
+				5E5C6CBE2242611D00CD2D3D /* .gitkeep */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5C6CC02242611D00CD2D3D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
