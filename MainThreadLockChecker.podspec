@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MainThreadLockChecker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'MainThreadLockChecker allows to monitor main thread blocks by long-running tasks'
   s.homepage         = 'https://github.com/panda254/MainThreadLockChecker'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
